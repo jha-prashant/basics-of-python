@@ -1,0 +1,20 @@
+student={
+    "name":"prashant",
+    "score":{
+        "phy":75,
+        "chem":68,
+        "math":85,
+        "eng":80,
+        "hindi":70,
+    }
+}
+print(student.values())
+print(len(student))
+print(student["score"]["chem"])
+print(list(student.keys()))
+print(student.items())
+print(student.get("name"))
+print(student.get("name2"))
+
+student.update({"city":"bhagalpur"})
+print(student)
