@@ -25,7 +25,7 @@ for el in range(1,100+1):
     print(el)'''
     
 for el in range(100,0,-1): 
-    print(el)
+    print(el) 
     
 #print the multiplication table of n number:
 n=int(input("enter number"))

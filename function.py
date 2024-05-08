@@ -18,5 +18,5 @@ def usr_input(num):
     else:
         print("ODD")
     return num
-usr_input(num)
+usr_input(num)  
         
